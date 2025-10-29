@@ -339,19 +339,19 @@ function startPhotoShow() {
         },
         {
             text: 'Sweet Memories 🥰',
-            image: './images/1316739.jpg'
+            image: './images/1316739.jpeg'
         },
         {
             text: 'Laugh Together 😂',
-            image: './images/1316743.jpg'
+            image: './images/1316743.jpeg'
         },
         {
             text: 'Perfect Day ☀️',
-            image: './images/1323213.jpg'
+            image: './images/1323213.jpeg'
         },
         {
             text: 'Love Forever 💖',
-            image: './images/1323215.jpg'
+            image: './images/1323215.jpeg'
         }
     ];
     
