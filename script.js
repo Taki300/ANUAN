@@ -227,11 +227,9 @@ function startTypewriter() {
 
 Happy Birthday!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
-
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v
+Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-
+Sekali lagi selamat ulang tahun, doa terbaik buat lu mwehehehehehe`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Rabel:v,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v<br><br>Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-.<br><br>Sekali lagi selamat ulang tahun, doa terbaik buat lu mwehehehehehe.`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
