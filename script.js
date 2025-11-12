@@ -229,7 +229,7 @@ Happy Birthday!
 
 Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v
 Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-
-Sekali lagi selamat ulang tahun, doa terbaik buat lu mwehehehehehe`;
+Sekali lagi selamat ulang tahun, doa terbaik buat lu termasuk doa cepet tinggi mwehehehehehe`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -264,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Rabel:v,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v<br><br>Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-.<br><br>Sekali lagi selamat ulang tahun, doa terbaik buat lu mwehehehehehe.`;
+            const fullMessage = `Hi Rabel:v,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v<br><br>Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-.<br><br>Sekali lagi selamat ulang tahun, doa terbaik buat lu termasuk doa cepet tinggi mwehehehehehe.`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
