@@ -223,13 +223,13 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi Rabel:v,
+    const fullMessage = `Hi Cantikku Repa,
 
 Happy Birthday!
 
-Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v
-Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-
-Sekali lagi selamat ulang tahun, doa terbaik buat lu termasuk doa cepet tinggi mwehehehehehe`;
+Cieeeee yang ulang tahun hari ini, aku masih inget kok ulang tahun kamu. Semoga apa yang disemogakan tersemogakan yaaaa.
+Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).
+Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu. Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -264,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Rabel:v,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, nambah tua aja nih (TUAAAAAA) awokwok maaf. Semoga apa yang disemogakan tersemogakan yaaaa:v<br><br>Gw harap dihari lu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan, jangan pernah berpikir diri lu sendirian (walaupun kek nya iya) karna selalu ada yang peduli dengan lu, seperti gw dan Azzam (anjay) dan JANGAN PERNAH NYOBA-NYOBA BUAT BUNDIR YA SUUUU_-.<br><br>Sekali lagi selamat ulang tahun, doa terbaik buat lu termasuk doa cepet tinggi mwehehehehehe.`;
+            const fullMessage = `Hi Cantikku Repa,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, aku masih inget kok ulang tahun kamu. Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).<br><br>Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu.<br><br>Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku.`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
