@@ -320,35 +320,35 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
+            text: 'Pertama kali event bareng(kita lucu banget)',
             image: './images/1008885.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'Baju lebaran baru yang kamu tunjukin ke aku',
             image: './images/1223899.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'Pap pertama yang kamu kasih ke aku',
             image: './images/1286298.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'Kamu cantik banget cos jadi Miku',
             image: './images/1286605.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
+            text: 'Kita lucu bikin trend ini(walaupun aku kikuk)',
             image: './images/1316739.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'Dipotoin dekel ku (sekarang kamu sama dekel mu)',
             image: './images/1316743.jpg'
         },
         {
-            text: 'Perfect Day ☀️',
+            text: 'Belajar bareng walaupun ujungnya ghibah',
             image: './images/1323213.jpg'
         },
         {
-            text: 'Love Forever 💖',
+            text: 'Ulang tahun kamu sebelum kita asing kek sekarang',
             image: './images/1323215.jpg'
         }
     ];
