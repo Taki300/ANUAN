@@ -376,7 +376,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">KENANGAN SEBELUM ASING</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
