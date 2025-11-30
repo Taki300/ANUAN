@@ -229,7 +229,10 @@ Happy Birthday!
 
 Cieeeee yang ulang tahun hari ini, aku masih inget kok ulang tahun kamu. Semoga apa yang disemogakan tersemogakan yaaaa.
 Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).
-Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu. Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku`;
+
+Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu.
+
+Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
