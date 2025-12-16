@@ -343,7 +343,7 @@ function startPhotoShow() {
             image: './images/1316739.jpg'
         },
         {
-            text: 'Dipotoin dekel ku (sekarang kamu sama dekel mu)',
+            text: 'Dipotoin dekel ku',
             image: './images/1316743.jpg'
         },
         {
