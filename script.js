@@ -223,16 +223,17 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi Cantikku Repa,
+    const fullMessage = `Hi Repa cantik, imut, menggemaskan
 
 Happy Birthday!
 
-Cieeeee yang ulang tahun hari ini, aku masih inget kok ulang tahun kamu. Semoga apa yang disemogakan tersemogakan yaaaa.
+YEAY YANG ULANG TAHUN HARI INI
+Aku masih inget kok ulang tahun kamu. Semoga apa yang disemogakan tersemogakan yaaaa.
 Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).
 
 Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu.
 
-Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku`;
+Aku selalu mencintaimu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -267,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cantikku Repa,<br><br>Happy Birthday!<br><br>Cieeeee yang ulang tahun hari ini, aku masih inget kok ulang tahun kamu. Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).<br><br>Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu.<br><br>Aku selalu mencintaimu dan menungu kamu sampai kapanpun itu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku.`;
+            const fullMessage = `Hi Repa cantik, imut, menggemaskan<br><br>Happy Birthday!<br><br>YEAY YANG ULANG TAHUN HARI INI<br><br>Aku masih inget kok ulang tahun kamu. Aku harap dihari kamu dilahrikan ini dan untuk hari-hari setelahnya setiap perjalanan lu selalu diiringi dengan kebahagiaan walaupun kamu udah gak sama aku lagi selagi kamu bahagia aku ikut seneng kok (aku kangen kamu), jangan pernah berpikir diri kamu sendirian karna selalu ada yang peduli dengan kamu, kek aku contohnya (anjay).<br><br>Sekali lagi selamat ulang tahun REPAAAAAAAA, doa terbaik buat kamu.<br><br>Aku selalu mencintaimu karna kamu yang bikin aku jatuh cinta lagi dan kamu cinta terakhir aku.`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -323,7 +324,7 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Pertama kali event bareng(kita lucu banget)',
+            text: 'Pertama kali event bareng',
             image: './images/1008885.jpg'
         },
         {
@@ -339,7 +340,7 @@ function startPhotoShow() {
             image: './images/1286605.jpg'
         },
         {
-            text: 'Kita lucu bikin trend ini(walaupun aku kikuk)',
+            text: 'konten pertama(walaupun aku kikuk)',
             image: './images/1316739.jpg'
         },
         {
@@ -347,11 +348,11 @@ function startPhotoShow() {
             image: './images/1316743.jpg'
         },
         {
-            text: 'Belajar bareng walaupun ujungnya ghibah',
+            text: 'Belajar bareng berujung ghibah',
             image: './images/1323213.jpg'
         },
         {
-            text: 'Ulang tahun kamu sebelum kita asing kek sekarang',
+            text: 'Satu tahun telah berlalu',
             image: './images/1323215.jpg'
         }
     ];
